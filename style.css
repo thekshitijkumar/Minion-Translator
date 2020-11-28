@@ -1,0 +1,47 @@
+:root{
+    --width-break: 600px;
+}
+body{
+    display: block;
+    margin: auto;
+    max-width: var(--width-break);
+    /* margin: 8px; */
+}
+
+#text-area
+{
+    margin:1rem 0rem;
+    box-sizing: border-box;
+    display: block;
+    min-height: 200px;
+    min-width: 100%;
+    max-width: 80%;
+    /* margin: 2rem 0rem; */
+    border: 1px solid black;
+
+}
+#btn-translate
+{
+    /* margin:1rem 2rem; */
+    margin:1rem 0rem;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  border:none;
+  font-size: large;
+  padding: 0.8rem 1rem;
+    background-color:#F2C94C;
+    color:black;
+
+}
+
+#output-text-area
+{
+    box-sizing: border-box;
+    max-width: 100%;
+    margin:1rem 0rem;
+    display: block;
+    min-height: 200px;
+    padding: 2rem;
+    border: 1px solid black;
+}
